@@ -6,7 +6,7 @@
     		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     		<link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
     		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-
+    		<script type=""></script>
     		<style type="text/css">
     			.img-fluid {
     				width: 100%;
@@ -68,7 +68,7 @@
     			</div>
   			</div>
   		</div>
-  	<script type="text/javascript">
+  	<!-- <script type="text/javascript">
   		let inner = document.getElementById('yek');
 
   		let b = new Egg('origins', function(){
@@ -77,7 +77,7 @@
 			inner.innerHTML = inner.append('<div id="carouselControls" class="carousel slide" data-ride="carousel"><ol class="carousel-indicators"><li data-target="#carouselExampleIndicators" data-slide-to="5" class="active"></li><li data-target="#carouselExampleIndicators" data-slide-to="6"></li><li data-target="#carouselExampleIndicators" data-slide-to="7"></li></ol><div class="carousel-inner"><div class="carousel-item active"><img class="img-fluid d-block w-100" src="/images/nicholascupcage.jpg" alt="Fifth slide"><div class="carousel-caption d-none d-md-block"><h3>CUPCAGE</h3><p>Life After Death</p></div></div><div class="carousel-item"><img class="img-fluid d-block w-100" src="/images/lifeafterdeath.png" alt="Sixth slide"><div class="carousel-caption d-none d-md-block"><h3>Destruction of a Man</h3><p>Through the EONS of TIME and SPACE</p></div></div><div class="carousel-item"><img class="img-fluid d-block w-100" src="/images/picklecage.jpg" alt="Seventh slide"><div class="carousel-caption d-none d-md-block"><h3>To Be Fair...</h3><p>You have to have a very high IQ to understand Picolas Cage </p></div></div></div>');
 		});
 			
-  			</script>
+  			</script> -->
 			<a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				<span class="sr-only">Previous</span>

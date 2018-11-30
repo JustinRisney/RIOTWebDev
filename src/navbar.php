@@ -20,8 +20,13 @@
 
 ?>
 <style>
+	.dropdown-menu {
+		background-color: #205c7e;
+		/* border: 2px solid #FFFFFF; */
+	}
 	.dropdown-item{
 		font-weight: 300;
+		color: #FFFFFF;
 	} 
 	.nav-link:hover {
 		color: #A9A9A9;
@@ -31,6 +36,7 @@
 	}**/
 	.active {
 		color: #A9A9A9 !important;
+		font-weight: 600 !important;
 	}
 	.nav-item  {
 		color: #FFFFFF;
@@ -43,8 +49,18 @@
 	#navbar-main {
 		background-color: #205c7e;
 	}
-	.divider
+
 </style>
+<script type="text/javascript">
+	
+	
+
+		function toggledUrMomLmao () {
+			document.getElementById("togglee").classList.toggle("show");
+		}
+
+
+</script>
 <nav class="navbar navbar-expand-sm fixed-top" id="navbar-main">
 	<a class="navbar-brand" href="/">
 		<img class="" src="/favicon.ico" style="width:20px;" />	
@@ -55,11 +71,11 @@
 	
 	<div class="collapse navbar-collapse" id="nav-content">   
 		<ul class="navbar-nav">
-			<div class="dropdown">
+			<div class="dropdown" onmouseover=" toggledUrMomLmao(); " onmouseout=" toggledUrMomLmao(); ">
   				<a class="nav-link dropdown-toggle <?php setnavactive($url, "/groups"); ?>" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
    					 Groups
  			    	</a>
- 			 	<ul class="dropdown-menu">
+ 			 	<ul class="dropdown-menu" id="togglee">
 				    <li><a class="dropdown-item <?php more_disabled_than_r7($url, "/groups/web-development") ?>" href="/groups/web-development">Web Development</a></li>
 				    <li class="dropdown-divider"></li>
 				    <li><a class="dropdown-item <?php more_disabled_than_r7($url, "/groups/robotics") ?>" href="/groups/robotics/">Robotics</a></li>
@@ -86,3 +102,13 @@
 		</ul>
 	</div>
 </nav>
+
+
+
+
+
+
+
+
+
+
