@@ -93,7 +93,7 @@
     		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     		<script>
 				new Egg('gaymer', function(){
-					window.location = "https://sites.google.com/a/rocklinusd.org/shh-secret-games/";
+					window.location = "https://sites.google.com/a/rocklinusd.org/shhh-secret-games/";
 				});
 			</script>
   	</body>
